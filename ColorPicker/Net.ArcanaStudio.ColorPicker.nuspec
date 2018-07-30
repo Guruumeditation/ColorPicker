@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Net.ArcanaStudio.ColorPicker</id>
+    <version>1.0.0</version>
+    <title>ColorPicker</title>
+    <authors>Olivier Matis</authors>
+    <owners>Arcana Studio</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/Guruumeditation/ColorPicker/blob/Develop/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Guruumeditation/ColorPicker/</projectUrl>
+    <iconUrl>https://github.com/Guruumeditation/ColorPicker/blob/master/NugetIcon.png?raw=true</iconUrl>
+    <description>Color picker library for Xamarin Android</description>
+    <releaseNotes>Version 1.0</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Colorpicker Xamarin Android</tags>
+  </metadata>
+  <files>
+    <file src="Net.ArcanaStudio.ColorPicker.dll" target="lib\MonoAndroid\Net.ArcanaStudio.ColorPicker.dll" />
+  </files>
+</package>
