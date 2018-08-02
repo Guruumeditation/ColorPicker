@@ -963,32 +963,32 @@ namespace Net.ArcanaStudio.ColorPicker
 		public partial class Color
 		{
 			
+			// aapt resource value: 0x7f0b003a
+			public static int abc_background_cache_hint_selector_material_dark = 2131427386;
+			
 			// aapt resource value: 0x7f0b003b
-			public static int abc_background_cache_hint_selector_material_dark = 2131427387;
+			public static int abc_background_cache_hint_selector_material_light = 2131427387;
 			
 			// aapt resource value: 0x7f0b003c
-			public static int abc_background_cache_hint_selector_material_light = 2131427388;
-			
-			// aapt resource value: 0x7f0b003d
-			public static int abc_color_highlight_material = 2131427389;
+			public static int abc_color_highlight_material = 2131427388;
 			
 			// aapt resource value: 0x7f0b0000
 			public static int abc_input_method_navigation_guard = 2131427328;
 			
+			// aapt resource value: 0x7f0b003d
+			public static int abc_primary_text_disable_only_material_dark = 2131427389;
+			
 			// aapt resource value: 0x7f0b003e
-			public static int abc_primary_text_disable_only_material_dark = 2131427390;
+			public static int abc_primary_text_disable_only_material_light = 2131427390;
 			
 			// aapt resource value: 0x7f0b003f
-			public static int abc_primary_text_disable_only_material_light = 2131427391;
+			public static int abc_primary_text_material_dark = 2131427391;
 			
 			// aapt resource value: 0x7f0b0040
-			public static int abc_primary_text_material_dark = 2131427392;
+			public static int abc_primary_text_material_light = 2131427392;
 			
 			// aapt resource value: 0x7f0b0041
-			public static int abc_primary_text_material_light = 2131427393;
-			
-			// aapt resource value: 0x7f0b0042
-			public static int abc_search_url_text = 2131427394;
+			public static int abc_search_url_text = 2131427393;
 			
 			// aapt resource value: 0x7f0b0001
 			public static int abc_search_url_text_normal = 2131427329;
@@ -999,11 +999,11 @@ namespace Net.ArcanaStudio.ColorPicker
 			// aapt resource value: 0x7f0b0003
 			public static int abc_search_url_text_selected = 2131427331;
 			
-			// aapt resource value: 0x7f0b0043
-			public static int abc_secondary_text_material_dark = 2131427395;
+			// aapt resource value: 0x7f0b0042
+			public static int abc_secondary_text_material_dark = 2131427394;
 			
-			// aapt resource value: 0x7f0b0044
-			public static int abc_secondary_text_material_light = 2131427396;
+			// aapt resource value: 0x7f0b0043
+			public static int abc_secondary_text_material_light = 2131427395;
 			
 			// aapt resource value: 0x7f0b0004
 			public static int accent_material_dark = 2131427332;
@@ -1113,9 +1113,6 @@ namespace Net.ArcanaStudio.ColorPicker
 			// aapt resource value: 0x7f0b0027
 			public static int material_grey_900 = 2131427367;
 			
-			// aapt resource value: 0x7f0b003a
-			public static int preference_fallback_accent_color = 2131427386;
-			
 			// aapt resource value: 0x7f0b0028
 			public static int primary_dark_material_dark = 2131427368;
 			
@@ -1164,11 +1161,11 @@ namespace Net.ArcanaStudio.ColorPicker
 			// aapt resource value: 0x7f0b0037
 			public static int switch_thumb_disabled_material_light = 2131427383;
 			
-			// aapt resource value: 0x7f0b0045
-			public static int switch_thumb_material_dark = 2131427397;
+			// aapt resource value: 0x7f0b0044
+			public static int switch_thumb_material_dark = 2131427396;
 			
-			// aapt resource value: 0x7f0b0046
-			public static int switch_thumb_material_light = 2131427398;
+			// aapt resource value: 0x7f0b0045
+			public static int switch_thumb_material_light = 2131427397;
 			
 			// aapt resource value: 0x7f0b0038
 			public static int switch_thumb_normal_material_dark = 2131427384;
@@ -1700,11 +1697,8 @@ namespace Net.ArcanaStudio.ColorPicker
 			// aapt resource value: 0x7f02004f
 			public static int cpv_preset_checked = 2130837583;
 			
-			// aapt resource value: 0x7f020051
-			public static int notification_template_icon_bg = 2130837585;
-			
 			// aapt resource value: 0x7f020050
-			public static int preference_list_divider_material = 2130837584;
+			public static int notification_template_icon_bg = 2130837584;
 			
 			static Drawable()
 			{
@@ -2244,46 +2238,34 @@ namespace Net.ArcanaStudio.ColorPicker
 			public static int preference_category = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public static int preference_category_material = 2130903083;
+			public static int preference_dialog_edittext = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public static int preference_dialog_edittext = 2130903084;
+			public static int preference_information = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public static int preference_information = 2130903085;
+			public static int preference_list_fragment = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public static int preference_information_material = 2130903086;
+			public static int preference_recyclerview = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public static int preference_list_fragment = 2130903087;
+			public static int preference_widget_checkbox = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public static int preference_material = 2130903088;
+			public static int preference_widget_switch_compat = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public static int preference_recyclerview = 2130903089;
+			public static int select_dialog_item_material = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public static int preference_widget_checkbox = 2130903090;
+			public static int select_dialog_multichoice_material = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public static int preference_widget_switch = 2130903091;
+			public static int select_dialog_singlechoice_material = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public static int preference_widget_switch_compat = 2130903092;
-			
-			// aapt resource value: 0x7f030035
-			public static int select_dialog_item_material = 2130903093;
-			
-			// aapt resource value: 0x7f030036
-			public static int select_dialog_multichoice_material = 2130903094;
-			
-			// aapt resource value: 0x7f030037
-			public static int select_dialog_singlechoice_material = 2130903095;
-			
-			// aapt resource value: 0x7f030038
-			public static int support_simple_spinner_dropdown_item = 2130903096;
+			public static int support_simple_spinner_dropdown_item = 2130903092;
 			
 			static Layout()
 			{
@@ -2866,14 +2848,8 @@ namespace Net.ArcanaStudio.ColorPicker
 			// aapt resource value: 0x7f070003
 			public static int Preference_Category = 2131165187;
 			
-			// aapt resource value: 0x7f07014a
-			public static int Preference_Category_Material = 2131165514;
-			
 			// aapt resource value: 0x7f070004
 			public static int Preference_CheckBoxPreference = 2131165188;
-			
-			// aapt resource value: 0x7f07014b
-			public static int Preference_CheckBoxPreference_Material = 2131165515;
 			
 			// aapt resource value: 0x7f070005
 			public static int Preference_DialogPreference = 2131165189;
@@ -2881,65 +2857,23 @@ namespace Net.ArcanaStudio.ColorPicker
 			// aapt resource value: 0x7f070006
 			public static int Preference_DialogPreference_EditTextPreference = 2131165190;
 			
-			// aapt resource value: 0x7f07014c
-			public static int Preference_DialogPreference_EditTextPreference_Material = 2131165516;
-			
-			// aapt resource value: 0x7f07014d
-			public static int Preference_DialogPreference_Material = 2131165517;
-			
 			// aapt resource value: 0x7f070007
 			public static int Preference_Information = 2131165191;
-			
-			// aapt resource value: 0x7f07014e
-			public static int Preference_Information_Material = 2131165518;
-			
-			// aapt resource value: 0x7f07014f
-			public static int Preference_Material = 2131165519;
 			
 			// aapt resource value: 0x7f070008
 			public static int Preference_PreferenceScreen = 2131165192;
 			
-			// aapt resource value: 0x7f070150
-			public static int Preference_PreferenceScreen_Material = 2131165520;
-			
-			// aapt resource value: 0x7f070151
-			public static int Preference_SwitchPreference = 2131165521;
-			
-			// aapt resource value: 0x7f070152
-			public static int Preference_SwitchPreference_Material = 2131165522;
-			
 			// aapt resource value: 0x7f070009
 			public static int Preference_SwitchPreferenceCompat = 2131165193;
-			
-			// aapt resource value: 0x7f070153
-			public static int Preference_SwitchPreferenceCompat_Material = 2131165523;
 			
 			// aapt resource value: 0x7f070000
 			public static int PreferenceFragment = 2131165184;
 			
-			// aapt resource value: 0x7f070154
-			public static int PreferenceFragment_Material = 2131165524;
-			
 			// aapt resource value: 0x7f070001
 			public static int PreferenceFragmentList = 2131165185;
 			
-			// aapt resource value: 0x7f070149
-			public static int PreferenceFragmentList_Material = 2131165513;
-			
 			// aapt resource value: 0x7f07000a
 			public static int PreferenceThemeOverlay = 2131165194;
-			
-			// aapt resource value: 0x7f070155
-			public static int PreferenceThemeOverlay_v14 = 2131165525;
-			
-			// aapt resource value: 0x7f070156
-			public static int PreferenceThemeOverlay_v14_Material = 2131165526;
-			
-			// aapt resource value: 0x7f070157
-			public static int Preference_TextAppearanceMaterialBody2 = 2131165527;
-			
-			// aapt resource value: 0x7f070158
-			public static int Preference_TextAppearanceMaterialSubhead = 2131165528;
 			
 			// aapt resource value: 0x7f070033
 			public static int RtlOverlay_DialogWindowTitle_AppCompat = 2131165235;
@@ -3427,8 +3361,8 @@ namespace Net.ArcanaStudio.ColorPicker
 			// aapt resource value: 0x7f070148
 			public static int Widget_AppCompat_Toolbar_Button_Navigation = 2131165512;
 			
-			// aapt resource value: 0x7f070159
-			public static int cpv_ColorPickerViewStyle = 2131165529;
+			// aapt resource value: 0x7f070149
+			public static int cpv_ColorPickerViewStyle = 2131165513;
 			
 			static Style()
 			{
@@ -4681,20 +4615,6 @@ namespace Net.ArcanaStudio.ColorPicker
 			// aapt resource value: 18
 			public static int Preference_widgetLayout = 18;
 			
-			public static int[] PreferenceFragment = new int[] {
-					16842994,
-					16843049,
-					16843050};
-			
-			// aapt resource value: 1
-			public static int PreferenceFragment_android_divider = 1;
-			
-			// aapt resource value: 2
-			public static int PreferenceFragment_android_dividerHeight = 2;
-			
-			// aapt resource value: 0
-			public static int PreferenceFragment_android_layout = 0;
-			
 			public static int[] PreferenceFragmentCompat = new int[] {
 					16842994,
 					16843049,
@@ -4982,48 +4902,6 @@ namespace Net.ArcanaStudio.ColorPicker
 			
 			// aapt resource value: 3
 			public static int SwitchCompat_track = 3;
-			
-			public static int[] SwitchPreference = new int[] {
-					16843247,
-					16843248,
-					16843249,
-					16843627,
-					16843628,
-					2130771972,
-					2130771973,
-					2130771974,
-					2130772019,
-					2130772020};
-			
-			// aapt resource value: 2
-			public static int SwitchPreference_android_disableDependentsState = 2;
-			
-			// aapt resource value: 1
-			public static int SwitchPreference_android_summaryOff = 1;
-			
-			// aapt resource value: 0
-			public static int SwitchPreference_android_summaryOn = 0;
-			
-			// aapt resource value: 4
-			public static int SwitchPreference_android_switchTextOff = 4;
-			
-			// aapt resource value: 3
-			public static int SwitchPreference_android_switchTextOn = 3;
-			
-			// aapt resource value: 7
-			public static int SwitchPreference_disableDependentsState = 7;
-			
-			// aapt resource value: 6
-			public static int SwitchPreference_summaryOff = 6;
-			
-			// aapt resource value: 5
-			public static int SwitchPreference_summaryOn = 5;
-			
-			// aapt resource value: 9
-			public static int SwitchPreference_switchTextOff = 9;
-			
-			// aapt resource value: 8
-			public static int SwitchPreference_switchTextOn = 8;
 			
 			public static int[] SwitchPreferenceCompat = new int[] {
 					16843247,
