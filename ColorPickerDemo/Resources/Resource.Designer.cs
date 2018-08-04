@@ -375,7 +375,6 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			global::Net.ArcanaStudio.ColorPicker.Resource.Color.material_grey_800 = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Color.material_grey_800;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Color.material_grey_850 = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Color.material_grey_850;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Color.material_grey_900 = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Color.material_grey_900;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Color.preference_fallback_accent_color = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Color.preference_fallback_accent_color;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Color.primary_dark_material_dark = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Color.primary_dark_material_dark;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Color.primary_dark_material_light = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Color.primary_dark_material_light;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Color.primary_material_dark = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Color.primary_material_dark;
@@ -563,7 +562,6 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			global::Net.ArcanaStudio.ColorPicker.Resource.Drawable.cpv_ic_arrow_right_black_24dp = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Drawable.cpv_ic_arrow_right_black_24dp;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Drawable.cpv_preset_checked = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Drawable.cpv_preset_checked;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Drawable.notification_template_icon_bg = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Drawable.notification_template_icon_bg;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Drawable.preference_list_divider_material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Drawable.preference_list_divider_material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Id.action0 = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Id.action0;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Id.action_bar = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Id.action_bar;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Id.action_bar_activity_content = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Id.action_bar_activity_content;
@@ -730,15 +728,11 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.notification_template_part_time = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.notification_template_part_time;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_category = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_category;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_category_material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_category_material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_dialog_edittext = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_dialog_edittext;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_information = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_information;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_information_material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_information_material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_list_fragment = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_list_fragment;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_recyclerview = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_recyclerview;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_widget_checkbox = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_widget_checkbox;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_widget_switch = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_widget_switch;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.preference_widget_switch_compat = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.preference_widget_switch_compat;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.select_dialog_item_material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.select_dialog_item_material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Layout.select_dialog_multichoice_material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Layout.select_dialog_multichoice_material;
@@ -929,31 +923,15 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Platform_Widget_AppCompat_Spinner;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_Category = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_Category;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_Category_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_Category_Material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_CheckBoxPreference = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_CheckBoxPreference;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_CheckBoxPreference_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_CheckBoxPreference_Material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_DialogPreference = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_DialogPreference;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_DialogPreference_EditTextPreference = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_DialogPreference_EditTextPreference;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_DialogPreference_EditTextPreference_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_DialogPreference_EditTextPreference_Material;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_DialogPreference_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_DialogPreference_Material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_Information = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_Information;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_Information_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_Information_Material;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_Material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_PreferenceScreen = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_PreferenceScreen;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_PreferenceScreen_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_PreferenceScreen_Material;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_SwitchPreference = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_SwitchPreference;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_SwitchPreference_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_SwitchPreference_Material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_SwitchPreferenceCompat = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_SwitchPreferenceCompat;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_SwitchPreferenceCompat_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_SwitchPreferenceCompat_Material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.PreferenceFragment = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.PreferenceFragment;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.PreferenceFragment_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.PreferenceFragment_Material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.PreferenceFragmentList = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.PreferenceFragmentList;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.PreferenceFragmentList_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.PreferenceFragmentList_Material;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.PreferenceThemeOverlay = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.PreferenceThemeOverlay;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.PreferenceThemeOverlay_v14 = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.PreferenceThemeOverlay_v14;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.PreferenceThemeOverlay_v14_Material = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.PreferenceThemeOverlay_v14_Material;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_TextAppearanceMaterialBody2 = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_TextAppearanceMaterialBody2;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Style.Preference_TextAppearanceMaterialSubhead = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.Preference_TextAppearanceMaterialSubhead;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
@@ -1441,10 +1419,6 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.Preference_summary = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.Preference_summary;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.Preference_title = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.Preference_title;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.Preference_widgetLayout = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.Preference_widgetLayout;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.PreferenceFragment = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.PreferenceFragment;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.PreferenceFragment_android_divider = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.PreferenceFragment_android_divider;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.PreferenceFragment_android_dividerHeight = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.PreferenceFragment_android_dividerHeight;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.PreferenceFragment_android_layout = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.PreferenceFragment_android_layout;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.PreferenceFragmentCompat = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.PreferenceFragmentCompat;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.PreferenceFragmentCompat_android_divider = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.PreferenceFragmentCompat_android_divider;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight;
@@ -1521,17 +1495,6 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchCompat_switchTextAppearance;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchCompat_thumbTextPadding;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchCompat_track = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchCompat_track;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_android_disableDependentsState = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_android_disableDependentsState;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_android_summaryOff = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_android_summaryOff;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_android_summaryOn = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_android_summaryOn;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_android_switchTextOff = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_android_switchTextOff;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_android_switchTextOn = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_android_switchTextOn;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_disableDependentsState = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_disableDependentsState;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_summaryOff = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_summaryOff;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_summaryOn = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_summaryOn;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_switchTextOff = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_switchTextOff;
-			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreference_switchTextOn = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreference_switchTextOn;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreferenceCompat = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreferenceCompat;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState;
 			global::Net.ArcanaStudio.ColorPicker.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff = global::Net.ArcanaStudio.ColorPickerDemo.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff;
@@ -2775,32 +2738,32 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 		public partial class Color
 		{
 			
+			// aapt resource value: 0x7f0d005d
+			public const int abc_background_cache_hint_selector_material_dark = 2131558493;
+			
 			// aapt resource value: 0x7f0d005e
-			public const int abc_background_cache_hint_selector_material_dark = 2131558494;
+			public const int abc_background_cache_hint_selector_material_light = 2131558494;
 			
 			// aapt resource value: 0x7f0d005f
-			public const int abc_background_cache_hint_selector_material_light = 2131558495;
-			
-			// aapt resource value: 0x7f0d0060
-			public const int abc_color_highlight_material = 2131558496;
+			public const int abc_color_highlight_material = 2131558495;
 			
 			// aapt resource value: 0x7f0d0000
 			public const int abc_input_method_navigation_guard = 2131558400;
 			
+			// aapt resource value: 0x7f0d0060
+			public const int abc_primary_text_disable_only_material_dark = 2131558496;
+			
 			// aapt resource value: 0x7f0d0061
-			public const int abc_primary_text_disable_only_material_dark = 2131558497;
+			public const int abc_primary_text_disable_only_material_light = 2131558497;
 			
 			// aapt resource value: 0x7f0d0062
-			public const int abc_primary_text_disable_only_material_light = 2131558498;
+			public const int abc_primary_text_material_dark = 2131558498;
 			
 			// aapt resource value: 0x7f0d0063
-			public const int abc_primary_text_material_dark = 2131558499;
+			public const int abc_primary_text_material_light = 2131558499;
 			
 			// aapt resource value: 0x7f0d0064
-			public const int abc_primary_text_material_light = 2131558500;
-			
-			// aapt resource value: 0x7f0d0065
-			public const int abc_search_url_text = 2131558501;
+			public const int abc_search_url_text = 2131558500;
 			
 			// aapt resource value: 0x7f0d0001
 			public const int abc_search_url_text_normal = 2131558401;
@@ -2811,11 +2774,11 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f0d0003
 			public const int abc_search_url_text_selected = 2131558403;
 			
-			// aapt resource value: 0x7f0d0066
-			public const int abc_secondary_text_material_dark = 2131558502;
+			// aapt resource value: 0x7f0d0065
+			public const int abc_secondary_text_material_dark = 2131558501;
 			
-			// aapt resource value: 0x7f0d0067
-			public const int abc_secondary_text_material_light = 2131558503;
+			// aapt resource value: 0x7f0d0066
+			public const int abc_secondary_text_material_light = 2131558502;
 			
 			// aapt resource value: 0x7f0d0004
 			public const int accent_material_dark = 2131558404;
@@ -2859,44 +2822,44 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f0d0011
 			public const int button_material_light = 2131558417;
 			
-			// aapt resource value: 0x7f0d0047
-			public const int colorAccent = 2131558471;
-			
-			// aapt resource value: 0x7f0d0045
-			public const int colorPrimary = 2131558469;
-			
 			// aapt resource value: 0x7f0d0046
-			public const int colorPrimaryDark = 2131558470;
-			
-			// aapt resource value: 0x7f0d003b
-			public const int design_fab_shadow_end_color = 2131558459;
-			
-			// aapt resource value: 0x7f0d003c
-			public const int design_fab_shadow_mid_color = 2131558460;
-			
-			// aapt resource value: 0x7f0d003d
-			public const int design_fab_shadow_start_color = 2131558461;
-			
-			// aapt resource value: 0x7f0d003e
-			public const int design_fab_stroke_end_inner_color = 2131558462;
-			
-			// aapt resource value: 0x7f0d003f
-			public const int design_fab_stroke_end_outer_color = 2131558463;
-			
-			// aapt resource value: 0x7f0d0040
-			public const int design_fab_stroke_top_inner_color = 2131558464;
-			
-			// aapt resource value: 0x7f0d0041
-			public const int design_fab_stroke_top_outer_color = 2131558465;
-			
-			// aapt resource value: 0x7f0d0042
-			public const int design_snackbar_background_color = 2131558466;
-			
-			// aapt resource value: 0x7f0d0043
-			public const int design_textinput_error_color_dark = 2131558467;
+			public const int colorAccent = 2131558470;
 			
 			// aapt resource value: 0x7f0d0044
-			public const int design_textinput_error_color_light = 2131558468;
+			public const int colorPrimary = 2131558468;
+			
+			// aapt resource value: 0x7f0d0045
+			public const int colorPrimaryDark = 2131558469;
+			
+			// aapt resource value: 0x7f0d003a
+			public const int design_fab_shadow_end_color = 2131558458;
+			
+			// aapt resource value: 0x7f0d003b
+			public const int design_fab_shadow_mid_color = 2131558459;
+			
+			// aapt resource value: 0x7f0d003c
+			public const int design_fab_shadow_start_color = 2131558460;
+			
+			// aapt resource value: 0x7f0d003d
+			public const int design_fab_stroke_end_inner_color = 2131558461;
+			
+			// aapt resource value: 0x7f0d003e
+			public const int design_fab_stroke_end_outer_color = 2131558462;
+			
+			// aapt resource value: 0x7f0d003f
+			public const int design_fab_stroke_top_inner_color = 2131558463;
+			
+			// aapt resource value: 0x7f0d0040
+			public const int design_fab_stroke_top_outer_color = 2131558464;
+			
+			// aapt resource value: 0x7f0d0041
+			public const int design_snackbar_background_color = 2131558465;
+			
+			// aapt resource value: 0x7f0d0042
+			public const int design_textinput_error_color_dark = 2131558466;
+			
+			// aapt resource value: 0x7f0d0043
+			public const int design_textinput_error_color_light = 2131558467;
 			
 			// aapt resource value: 0x7f0d0012
 			public const int dim_foreground_disabled_material_dark = 2131558418;
@@ -2928,8 +2891,8 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f0d001b
 			public const int hint_foreground_material_light = 2131558427;
 			
-			// aapt resource value: 0x7f0d005d
-			public const int ic_launcher_background = 2131558493;
+			// aapt resource value: 0x7f0d005c
+			public const int ic_launcher_background = 2131558492;
 			
 			// aapt resource value: 0x7f0d001c
 			public const int material_blue_grey_800 = 2131558428;
@@ -2967,71 +2930,68 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f0d0027
 			public const int material_grey_900 = 2131558439;
 			
-			// aapt resource value: 0x7f0d0055
-			public const int md_amber_500 = 2131558485;
-			
-			// aapt resource value: 0x7f0d005a
-			public const int md_black = 2131558490;
-			
-			// aapt resource value: 0x7f0d004d
-			public const int md_blue_500 = 2131558477;
-			
-			// aapt resource value: 0x7f0d005c
-			public const int md_blue_grey_500 = 2131558492;
-			
-			// aapt resource value: 0x7f0d0058
-			public const int md_brown_500 = 2131558488;
-			
-			// aapt resource value: 0x7f0d004f
-			public const int md_cyan_500 = 2131558479;
-			
-			// aapt resource value: 0x7f0d0057
-			public const int md_deep_orange_500 = 2131558487;
-			
-			// aapt resource value: 0x7f0d004b
-			public const int md_deep_purple_500 = 2131558475;
-			
-			// aapt resource value: 0x7f0d0051
-			public const int md_green_500 = 2131558481;
+			// aapt resource value: 0x7f0d0054
+			public const int md_amber_500 = 2131558484;
 			
 			// aapt resource value: 0x7f0d0059
-			public const int md_grey_500 = 2131558489;
+			public const int md_black = 2131558489;
 			
 			// aapt resource value: 0x7f0d004c
-			public const int md_indigo_500 = 2131558476;
-			
-			// aapt resource value: 0x7f0d004e
-			public const int md_light_blue_500 = 2131558478;
-			
-			// aapt resource value: 0x7f0d0052
-			public const int md_light_green_500 = 2131558482;
-			
-			// aapt resource value: 0x7f0d0053
-			public const int md_lime_500 = 2131558483;
-			
-			// aapt resource value: 0x7f0d0056
-			public const int md_orange_500 = 2131558486;
-			
-			// aapt resource value: 0x7f0d0049
-			public const int md_pink_500 = 2131558473;
-			
-			// aapt resource value: 0x7f0d004a
-			public const int md_purple_500 = 2131558474;
-			
-			// aapt resource value: 0x7f0d0048
-			public const int md_red_500 = 2131558472;
-			
-			// aapt resource value: 0x7f0d0050
-			public const int md_teal_500 = 2131558480;
+			public const int md_blue_500 = 2131558476;
 			
 			// aapt resource value: 0x7f0d005b
-			public const int md_white = 2131558491;
+			public const int md_blue_grey_500 = 2131558491;
 			
-			// aapt resource value: 0x7f0d0054
-			public const int md_yellow_500 = 2131558484;
+			// aapt resource value: 0x7f0d0057
+			public const int md_brown_500 = 2131558487;
 			
-			// aapt resource value: 0x7f0d003a
-			public const int preference_fallback_accent_color = 2131558458;
+			// aapt resource value: 0x7f0d004e
+			public const int md_cyan_500 = 2131558478;
+			
+			// aapt resource value: 0x7f0d0056
+			public const int md_deep_orange_500 = 2131558486;
+			
+			// aapt resource value: 0x7f0d004a
+			public const int md_deep_purple_500 = 2131558474;
+			
+			// aapt resource value: 0x7f0d0050
+			public const int md_green_500 = 2131558480;
+			
+			// aapt resource value: 0x7f0d0058
+			public const int md_grey_500 = 2131558488;
+			
+			// aapt resource value: 0x7f0d004b
+			public const int md_indigo_500 = 2131558475;
+			
+			// aapt resource value: 0x7f0d004d
+			public const int md_light_blue_500 = 2131558477;
+			
+			// aapt resource value: 0x7f0d0051
+			public const int md_light_green_500 = 2131558481;
+			
+			// aapt resource value: 0x7f0d0052
+			public const int md_lime_500 = 2131558482;
+			
+			// aapt resource value: 0x7f0d0055
+			public const int md_orange_500 = 2131558485;
+			
+			// aapt resource value: 0x7f0d0048
+			public const int md_pink_500 = 2131558472;
+			
+			// aapt resource value: 0x7f0d0049
+			public const int md_purple_500 = 2131558473;
+			
+			// aapt resource value: 0x7f0d0047
+			public const int md_red_500 = 2131558471;
+			
+			// aapt resource value: 0x7f0d004f
+			public const int md_teal_500 = 2131558479;
+			
+			// aapt resource value: 0x7f0d005a
+			public const int md_white = 2131558490;
+			
+			// aapt resource value: 0x7f0d0053
+			public const int md_yellow_500 = 2131558483;
 			
 			// aapt resource value: 0x7f0d0028
 			public const int primary_dark_material_dark = 2131558440;
@@ -3081,11 +3041,11 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f0d0037
 			public const int switch_thumb_disabled_material_light = 2131558455;
 			
-			// aapt resource value: 0x7f0d0068
-			public const int switch_thumb_material_dark = 2131558504;
+			// aapt resource value: 0x7f0d0067
+			public const int switch_thumb_material_dark = 2131558503;
 			
-			// aapt resource value: 0x7f0d0069
-			public const int switch_thumb_material_light = 2131558505;
+			// aapt resource value: 0x7f0d0068
+			public const int switch_thumb_material_light = 2131558504;
 			
 			// aapt resource value: 0x7f0d0038
 			public const int switch_thumb_normal_material_dark = 2131558456;
@@ -3722,11 +3682,8 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f020053
 			public const int ic_palette_white_24dp = 2130837587;
 			
-			// aapt resource value: 0x7f020055
-			public const int notification_template_icon_bg = 2130837589;
-			
 			// aapt resource value: 0x7f020054
-			public const int preference_list_divider_material = 2130837588;
+			public const int notification_template_icon_bg = 2130837588;
 			
 			static Drawable()
 			{
@@ -4428,46 +4385,34 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			public const int preference_category = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int preference_category_material = 2130968633;
+			public const int preference_dialog_edittext = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int preference_dialog_edittext = 2130968634;
+			public const int preference_information = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int preference_information = 2130968635;
+			public const int preference_list_fragment = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int preference_information_material = 2130968636;
+			public const int preference_recyclerview = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int preference_list_fragment = 2130968637;
+			public const int preference_widget_checkbox = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int preference_material = 2130968638;
+			public const int preference_widget_switch_compat = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int preference_recyclerview = 2130968639;
+			public const int select_dialog_item_material = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int preference_widget_checkbox = 2130968640;
+			public const int select_dialog_multichoice_material = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int preference_widget_switch = 2130968641;
+			public const int select_dialog_singlechoice_material = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int preference_widget_switch_compat = 2130968642;
-			
-			// aapt resource value: 0x7f040043
-			public const int select_dialog_item_material = 2130968643;
-			
-			// aapt resource value: 0x7f040044
-			public const int select_dialog_multichoice_material = 2130968644;
-			
-			// aapt resource value: 0x7f040045
-			public const int select_dialog_singlechoice_material = 2130968645;
-			
-			// aapt resource value: 0x7f040046
-			public const int support_simple_spinner_dropdown_item = 2130968646;
+			public const int support_simple_spinner_dropdown_item = 2130968642;
 			
 			static Layout()
 			{
@@ -4647,11 +4592,11 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f090094
 			public const int Animation_AppCompat_DropDownUp = 2131296404;
 			
-			// aapt resource value: 0x7f09015a
-			public const int Animation_Design_BottomSheetDialog = 2131296602;
+			// aapt resource value: 0x7f09014a
+			public const int Animation_Design_BottomSheetDialog = 2131296586;
 			
-			// aapt resource value: 0x7f090173
-			public const int AppTheme = 2131296627;
+			// aapt resource value: 0x7f090163
+			public const int AppTheme = 2131296611;
 			
 			// aapt resource value: 0x7f090095
 			public const int Base_AlertDialog_AppCompat = 2131296405;
@@ -5079,20 +5024,20 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f090084
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131296388;
 			
-			// aapt resource value: 0x7f09015b
-			public const int Base_Widget_Design_TabLayout = 2131296603;
+			// aapt resource value: 0x7f09014b
+			public const int Base_Widget_Design_TabLayout = 2131296587;
 			
-			// aapt resource value: 0x7f090175
-			public const int DarkPickerDialogTheme = 2131296629;
+			// aapt resource value: 0x7f090165
+			public const int DarkPickerDialogTheme = 2131296613;
 			
-			// aapt resource value: 0x7f090177
-			public const int DarkPickerDialogTitleStyle = 2131296631;
+			// aapt resource value: 0x7f090167
+			public const int DarkPickerDialogTitleStyle = 2131296615;
 			
-			// aapt resource value: 0x7f090174
-			public const int LightPickerDialogTheme = 2131296628;
+			// aapt resource value: 0x7f090164
+			public const int LightPickerDialogTheme = 2131296612;
 			
-			// aapt resource value: 0x7f090176
-			public const int LightPickerDialogTitleStyle = 2131296630;
+			// aapt resource value: 0x7f090166
+			public const int LightPickerDialogTitleStyle = 2131296614;
 			
 			// aapt resource value: 0x7f090022
 			public const int Platform_AppCompat = 2131296290;
@@ -5130,14 +5075,8 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f090003
 			public const int Preference_Category = 2131296259;
 			
-			// aapt resource value: 0x7f09014a
-			public const int Preference_Category_Material = 2131296586;
-			
 			// aapt resource value: 0x7f090004
 			public const int Preference_CheckBoxPreference = 2131296260;
-			
-			// aapt resource value: 0x7f09014b
-			public const int Preference_CheckBoxPreference_Material = 2131296587;
 			
 			// aapt resource value: 0x7f090005
 			public const int Preference_DialogPreference = 2131296261;
@@ -5145,65 +5084,23 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f090006
 			public const int Preference_DialogPreference_EditTextPreference = 2131296262;
 			
-			// aapt resource value: 0x7f09014c
-			public const int Preference_DialogPreference_EditTextPreference_Material = 2131296588;
-			
-			// aapt resource value: 0x7f09014d
-			public const int Preference_DialogPreference_Material = 2131296589;
-			
 			// aapt resource value: 0x7f090007
 			public const int Preference_Information = 2131296263;
-			
-			// aapt resource value: 0x7f09014e
-			public const int Preference_Information_Material = 2131296590;
-			
-			// aapt resource value: 0x7f09014f
-			public const int Preference_Material = 2131296591;
 			
 			// aapt resource value: 0x7f090008
 			public const int Preference_PreferenceScreen = 2131296264;
 			
-			// aapt resource value: 0x7f090150
-			public const int Preference_PreferenceScreen_Material = 2131296592;
-			
-			// aapt resource value: 0x7f090151
-			public const int Preference_SwitchPreference = 2131296593;
-			
-			// aapt resource value: 0x7f090152
-			public const int Preference_SwitchPreference_Material = 2131296594;
-			
 			// aapt resource value: 0x7f090009
 			public const int Preference_SwitchPreferenceCompat = 2131296265;
-			
-			// aapt resource value: 0x7f090153
-			public const int Preference_SwitchPreferenceCompat_Material = 2131296595;
 			
 			// aapt resource value: 0x7f090000
 			public const int PreferenceFragment = 2131296256;
 			
-			// aapt resource value: 0x7f090154
-			public const int PreferenceFragment_Material = 2131296596;
-			
 			// aapt resource value: 0x7f090001
 			public const int PreferenceFragmentList = 2131296257;
 			
-			// aapt resource value: 0x7f090149
-			public const int PreferenceFragmentList_Material = 2131296585;
-			
 			// aapt resource value: 0x7f09000a
 			public const int PreferenceThemeOverlay = 2131296266;
-			
-			// aapt resource value: 0x7f090155
-			public const int PreferenceThemeOverlay_v14 = 2131296597;
-			
-			// aapt resource value: 0x7f090156
-			public const int PreferenceThemeOverlay_v14_Material = 2131296598;
-			
-			// aapt resource value: 0x7f090157
-			public const int Preference_TextAppearanceMaterialBody2 = 2131296599;
-			
-			// aapt resource value: 0x7f090158
-			public const int Preference_TextAppearanceMaterialSubhead = 2131296600;
 			
 			// aapt resource value: 0x7f090033
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131296307;
@@ -5379,26 +5276,26 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f0900ec
 			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131296492;
 			
-			// aapt resource value: 0x7f09015c
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131296604;
+			// aapt resource value: 0x7f09014c
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131296588;
 			
-			// aapt resource value: 0x7f09015d
-			public const int TextAppearance_Design_Counter = 2131296605;
+			// aapt resource value: 0x7f09014d
+			public const int TextAppearance_Design_Counter = 2131296589;
 			
-			// aapt resource value: 0x7f09015e
-			public const int TextAppearance_Design_Counter_Overflow = 2131296606;
+			// aapt resource value: 0x7f09014e
+			public const int TextAppearance_Design_Counter_Overflow = 2131296590;
 			
-			// aapt resource value: 0x7f09015f
-			public const int TextAppearance_Design_Error = 2131296607;
+			// aapt resource value: 0x7f09014f
+			public const int TextAppearance_Design_Error = 2131296591;
 			
-			// aapt resource value: 0x7f090160
-			public const int TextAppearance_Design_Hint = 2131296608;
+			// aapt resource value: 0x7f090150
+			public const int TextAppearance_Design_Hint = 2131296592;
 			
-			// aapt resource value: 0x7f090161
-			public const int TextAppearance_Design_Snackbar_Message = 2131296609;
+			// aapt resource value: 0x7f090151
+			public const int TextAppearance_Design_Snackbar_Message = 2131296593;
 			
-			// aapt resource value: 0x7f090162
-			public const int TextAppearance_Design_Tab = 2131296610;
+			// aapt resource value: 0x7f090152
+			public const int TextAppearance_Design_Tab = 2131296594;
 			
 			// aapt resource value: 0x7f09002e
 			public const int TextAppearance_StatusBar_EventContent = 2131296302;
@@ -5487,23 +5384,23 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f0900fd
 			public const int Theme_AppCompat_NoActionBar = 2131296509;
 			
-			// aapt resource value: 0x7f090163
-			public const int Theme_Design = 2131296611;
+			// aapt resource value: 0x7f090153
+			public const int Theme_Design = 2131296595;
 			
-			// aapt resource value: 0x7f090164
-			public const int Theme_Design_BottomSheetDialog = 2131296612;
+			// aapt resource value: 0x7f090154
+			public const int Theme_Design_BottomSheetDialog = 2131296596;
 			
-			// aapt resource value: 0x7f090165
-			public const int Theme_Design_Light = 2131296613;
+			// aapt resource value: 0x7f090155
+			public const int Theme_Design_Light = 2131296597;
 			
-			// aapt resource value: 0x7f090166
-			public const int Theme_Design_Light_BottomSheetDialog = 2131296614;
+			// aapt resource value: 0x7f090156
+			public const int Theme_Design_Light_BottomSheetDialog = 2131296598;
 			
-			// aapt resource value: 0x7f090167
-			public const int Theme_Design_Light_NoActionBar = 2131296615;
+			// aapt resource value: 0x7f090157
+			public const int Theme_Design_Light_NoActionBar = 2131296599;
 			
-			// aapt resource value: 0x7f090168
-			public const int Theme_Design_NoActionBar = 2131296616;
+			// aapt resource value: 0x7f090158
+			public const int Theme_Design_NoActionBar = 2131296600;
 			
 			// aapt resource value: 0x7f0900fe
 			public const int ThemeOverlay_AppCompat = 2131296510;
@@ -5730,38 +5627,38 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 0x7f090148
 			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131296584;
 			
-			// aapt resource value: 0x7f090169
-			public const int Widget_Design_AppBarLayout = 2131296617;
-			
-			// aapt resource value: 0x7f09016a
-			public const int Widget_Design_BottomSheet_Modal = 2131296618;
-			
-			// aapt resource value: 0x7f09016b
-			public const int Widget_Design_CollapsingToolbar = 2131296619;
-			
-			// aapt resource value: 0x7f09016c
-			public const int Widget_Design_CoordinatorLayout = 2131296620;
-			
-			// aapt resource value: 0x7f09016d
-			public const int Widget_Design_FloatingActionButton = 2131296621;
-			
-			// aapt resource value: 0x7f09016e
-			public const int Widget_Design_NavigationView = 2131296622;
-			
-			// aapt resource value: 0x7f09016f
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131296623;
-			
-			// aapt resource value: 0x7f090170
-			public const int Widget_Design_Snackbar = 2131296624;
-			
 			// aapt resource value: 0x7f090159
-			public const int Widget_Design_TabLayout = 2131296601;
+			public const int Widget_Design_AppBarLayout = 2131296601;
 			
-			// aapt resource value: 0x7f090171
-			public const int Widget_Design_TextInputLayout = 2131296625;
+			// aapt resource value: 0x7f09015a
+			public const int Widget_Design_BottomSheet_Modal = 2131296602;
 			
-			// aapt resource value: 0x7f090172
-			public const int cpv_ColorPickerViewStyle = 2131296626;
+			// aapt resource value: 0x7f09015b
+			public const int Widget_Design_CollapsingToolbar = 2131296603;
+			
+			// aapt resource value: 0x7f09015c
+			public const int Widget_Design_CoordinatorLayout = 2131296604;
+			
+			// aapt resource value: 0x7f09015d
+			public const int Widget_Design_FloatingActionButton = 2131296605;
+			
+			// aapt resource value: 0x7f09015e
+			public const int Widget_Design_NavigationView = 2131296606;
+			
+			// aapt resource value: 0x7f09015f
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131296607;
+			
+			// aapt resource value: 0x7f090160
+			public const int Widget_Design_Snackbar = 2131296608;
+			
+			// aapt resource value: 0x7f090149
+			public const int Widget_Design_TabLayout = 2131296585;
+			
+			// aapt resource value: 0x7f090161
+			public const int Widget_Design_TextInputLayout = 2131296609;
+			
+			// aapt resource value: 0x7f090162
+			public const int cpv_ColorPickerViewStyle = 2131296610;
 			
 			static Style()
 			{
@@ -7268,20 +7165,6 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			// aapt resource value: 18
 			public const int Preference_widgetLayout = 18;
 			
-			public static int[] PreferenceFragment = new int[] {
-					16842994,
-					16843049,
-					16843050};
-			
-			// aapt resource value: 1
-			public const int PreferenceFragment_android_divider = 1;
-			
-			// aapt resource value: 2
-			public const int PreferenceFragment_android_dividerHeight = 2;
-			
-			// aapt resource value: 0
-			public const int PreferenceFragment_android_layout = 0;
-			
 			public static int[] PreferenceFragmentCompat = new int[] {
 					16842994,
 					16843049,
@@ -7595,48 +7478,6 @@ namespace Net.ArcanaStudio.ColorPickerDemo
 			
 			// aapt resource value: 3
 			public const int SwitchCompat_track = 3;
-			
-			public static int[] SwitchPreference = new int[] {
-					16843247,
-					16843248,
-					16843249,
-					16843627,
-					16843628,
-					2130771972,
-					2130771973,
-					2130771974,
-					2130772019,
-					2130772020};
-			
-			// aapt resource value: 2
-			public const int SwitchPreference_android_disableDependentsState = 2;
-			
-			// aapt resource value: 1
-			public const int SwitchPreference_android_summaryOff = 1;
-			
-			// aapt resource value: 0
-			public const int SwitchPreference_android_summaryOn = 0;
-			
-			// aapt resource value: 4
-			public const int SwitchPreference_android_switchTextOff = 4;
-			
-			// aapt resource value: 3
-			public const int SwitchPreference_android_switchTextOn = 3;
-			
-			// aapt resource value: 7
-			public const int SwitchPreference_disableDependentsState = 7;
-			
-			// aapt resource value: 6
-			public const int SwitchPreference_summaryOff = 6;
-			
-			// aapt resource value: 5
-			public const int SwitchPreference_summaryOn = 5;
-			
-			// aapt resource value: 9
-			public const int SwitchPreference_switchTextOff = 9;
-			
-			// aapt resource value: 8
-			public const int SwitchPreference_switchTextOn = 8;
 			
 			public static int[] SwitchPreferenceCompat = new int[] {
 					16843247,

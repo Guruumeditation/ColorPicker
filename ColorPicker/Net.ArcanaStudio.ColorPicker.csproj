@@ -78,14 +78,15 @@
   <ItemGroup>
     <None Include="Net.ArcanaStudio.ColorPicker.nuspec">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.v14.Preference">
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="23.4.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.Preference">
       <Version>23.4.0.1</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="23.4.0.1" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\strings.xml" />
