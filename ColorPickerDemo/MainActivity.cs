@@ -58,6 +58,8 @@ namespace Net.ArcanaStudio.ColorPickerDemo
             {
                 FragmentManager.BeginTransaction().Add(Android.Resource.Id.Content, new DemoFragment()).Commit();
             }
+
+
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
