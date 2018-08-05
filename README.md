@@ -1,8 +1,8 @@
 # Colorpicker
 
-
-[![Android API](https://img.shields.io/badge/API-23%2B%20(6.0)-brightgreen.svg)](https://developer.android.com/about/versions/marshmallow/android-6.0) 
-[![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<a target="_blank" href="https://developer.android.com/about/versions/marshmallow/android-6.0"><img src="https://img.shields.io/badge/API-23%2B%20(6.0)-brightgreen.svg" alt="API" /></a>
+<a target="_blank" href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
+<a target="_blank" href="https://twitter.com/guruumeditation"><img src="https://img.shields.io/twitter/follow/guruumeditation.svg?style=social" /></a>
 
 Colorpicker control for Xamarin Android
 
@@ -15,8 +15,8 @@ This is the Xamarin version of Jared Rummler ColorPicker https://github.com/jare
 
 | Target | Branch | Status | Package version|
 --------------|------------- | --------- | --------|
-| Release | master |[![Build status](https://equinoxe.visualstudio.com/ColorPicker/_apis/build/status/ColorPicker-Master)](https://equinoxe.visualstudio.com/ColorPicker/_build/latest?definitionId=27) | [![Nuget](https://img.shields.io/nuget/v/Net.ArcanaStudio.ColorPicker.svg)](https://www.nuget.org/packages/Net.ArcanaStudio.ColorPicker/)
-| Preview | develop | [![Build status](https://equinoxe.visualstudio.com/ColorPicker/_apis/build/status/ColorPicker-Develop)](https://equinoxe.visualstudio.com/ColorPicker/_build/latest?definitionId=25) | [![Nuget](https://img.shields.io/nuget/vpre/Net.ArcanaStudio.ColorPicker.svg)](https://www.nuget.org/packages/Net.ArcanaStudio.ColorPicker/)
+| Release | master | <a target="_blank" href="https://equinoxe.visualstudio.com/ColorPicker/_build/latest?definitionId=27"><img src="https://equinoxe.visualstudio.com/ColorPicker/_apis/build/status/ColorPicker-Master" alt="Build status" /></a> | <a target="_blank" href="https://www.nuget.org/packages/Net.ArcanaStudio.ColorPicker/"><img src="https://img.shields.io/nuget/v/Net.ArcanaStudio.ColorPicker.svg" alt="Nuget package" /></a>
+| Preview | develop | <a target="_blank" href="https://equinoxe.visualstudio.com/ColorPicker/_build/latest?definitionId=25"><img src="https://equinoxe.visualstudio.com/ColorPicker/_apis/build/status/ColorPicker-Develop" alt="Build status" /></a>| <a target="_blank" href="https://www.nuget.org/packages/Net.ArcanaStudio.ColorPicker/"><img src="https://img.shields.io/nuget/vpre/Net.ArcanaStudio.ColorPicker.svg" alt="Nuget package"/></a>
 
 ## Screenshots
 
