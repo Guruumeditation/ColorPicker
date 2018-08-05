@@ -1,0 +1,67 @@
+<!--
+// Copyright 2018 Arcana Studio
+// 
+// Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+// The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+// 
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+// 
+// Based on the work of Jared Rummler : https://github.com/jaredrummler/ColorPicker
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <PreferenceCategory android:title="Demo">
+    <Net.ArcanaStudio.ColorPicker.ColorPreference
+        android:defaultValue="0xFF3F51B5"
+        android:key="default_color"
+        android:summary="This is the default ColorPreference"
+        android:title="Default color picker"/>
+
+    <Net.ArcanaStudio.ColorPicker.ColorPreference
+        android:defaultValue="0xFF009688"
+        android:key="square_color"
+        android:summary="A square shaped color picker"
+        android:title="Square color picker"
+        app:cpv_colorShape="square"/>
+
+    <Net.ArcanaStudio.ColorPicker.ColorPreference
+        android:defaultValue="0xFFEC407A"
+        android:key="custom_only_color"
+        android:summary="A picker that doesn't show the presets"
+        android:title="Custom color"
+        app:cpv_allowPresets="false"
+        app:cpv_dialogTitle="@string/app_name"
+        app:cpv_dialogType="custom"/>
+
+    <Net.ArcanaStudio.ColorPicker.ColorPreference
+        android:defaultValue="0x890099CC"
+        android:key="color_with_alpha"
+        android:summary="A picker with alpha slider"
+        android:title="Color picker with alpha"
+        app:cpv_showColorShades="false"
+        app:cpv_previewSize="large"
+        app:cpv_showAlphaSlider="true"/>
+
+    <Net.ArcanaStudio.ColorPicker.ColorPreference
+        android:defaultValue="0xFFCDDC39"
+        android:key="my_presets"
+        android:summary="A picker with presets different presets"
+        android:title="Custom presets"
+        app:cpv_allowCustom="false"
+        app:cpv_colorPresets="@array/demo_colors"
+        app:cpv_previewSize="large"
+        app:cpv_showColorShades="false"/>
+
+    <Preference
+        android:summary="Show how the custom color picker can be used in a standard activity."
+        android:title="Show activity">
+      <intent
+          android:action="android.intent.action.VIEW"
+          android:targetClass="Net.ArcanaStudio.ColorPickerDemo.ColorPickerActivity"
+          android:targetPackage="Net.ArcanaStudio.ColorPickerDemo"/>
+    </Preference>
+  </PreferenceCategory>
+
+</PreferenceScreen>
