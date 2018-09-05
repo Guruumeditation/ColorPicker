@@ -496,8 +496,8 @@ namespace Net.ArcanaStudio.ColorPicker
 
             InitPaintTools();
 
+            Focusable = true;
             //Needed for receiving trackball motion events.
-            SetFocusable(ViewFocusability.Focusable);
             FocusableInTouchMode = true;
         }
 
