@@ -485,7 +485,7 @@ namespace Net.ArcanaStudio.ColorPicker
             _rootView = new FrameLayout(Activity);
             if (_dialogType == DialogType.Custom)
             {
-                _rootView.AddView(CreatePresetsView());
+                _rootView.AddView(CreatePickerView());
             }
             else if (_dialogType == DialogType.Preset)
             {
