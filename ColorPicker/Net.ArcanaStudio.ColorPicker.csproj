@@ -69,6 +69,7 @@
     <Compile Include="NestedGridView.cs" />
     <Compile Include="OnClickListener.cs" />
     <Compile Include="OnColorSelectedListener.cs" />
+    <Compile Include="OnDialogFinishedListener %282%29.cs" />
     <Compile Include="OnFocusChangeListener.cs" />
     <Compile Include="OnLongClickListener.cs" />
     <Compile Include="OnSeekBarChangeListener.cs" />
