@@ -10,6 +10,7 @@
 using System;
 using System.Globalization;
 using System.Linq;
+using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.Graphics;
@@ -50,6 +51,7 @@ namespace Net.ArcanaStudio.ColorPicker
         private const string ARG_COLOR_SHAPE = "colorShape";
         private const string ARG_CUSTOM_BUTTON_TEXT = "customButtonText";
         private const string ARG_DIALOG_TITLE = "dialogTitle";
+        private const string ARG_DIALOG_TITLE_STRING = "dialogTitleString";
         private const string ARG_ID = "id";
         private const string ARG_PRESETS = "presets";
         private const string ARG_PRESETS_BUTTON_TEXT = "presetsButtonText";
@@ -504,10 +506,18 @@ namespace Net.ArcanaStudio.ColorPicker
                     new DialogInterfaceOnClickListener((d, i) =>
                         _colorPickerDialogListener.OnColorSelected(_dialogId, _color)));
 
-            var dialogTitleStringRes = Arguments.GetInt(ARG_DIALOG_TITLE);
-            if (dialogTitleStringRes != 0)
+            string dialogTitleString = Arguments.GetString(ARG_DIALOG_TITLE_STRING);
+            if (string.IsNullOrEmpty(dialogTitleString))
             {
-                builder.SetTitle(dialogTitleStringRes);
+
+                var dialogTitleStringRes = Arguments.GetInt(ARG_DIALOG_TITLE);
+                if (dialogTitleStringRes != 0)
+                {
+                    builder.SetTitle(dialogTitleStringRes);
+                }
+            } else
+            {
+                builder.SetTitle(dialogTitleString);
             }
 
             _presetsButtonStringRes = Arguments.GetInt(ARG_PRESETS_BUTTON_TEXT);
@@ -846,6 +856,7 @@ namespace Net.ArcanaStudio.ColorPicker
             private int _dialogId;
 
             private int _dialogTitle = Resource.String.cpv_default_title;
+            private string _dialogTitleString = null;
             private DialogType _dialogType = DialogType.Preset;
             private Color[] _presets = MATERIAL_COLORS;
             private int _presetsButtonText = Resource.String.cpv_presets;
@@ -889,6 +900,7 @@ namespace Net.ArcanaStudio.ColorPicker
                 args.PutBoolean(ARG_ALLOW_CUSTOM, _allowCustom);
                 args.PutBoolean(ARG_ALLOW_PRESETS, _allowPresets);
                 args.PutInt(ARG_DIALOG_TITLE, _dialogTitle);
+                args.PutString(ARG_DIALOG_TITLE_STRING, _dialogTitleString);
                 args.PutBoolean(ARG_SHOW_COLOR_SHADES, _showColorShades);
                 args.PutInt(ARG_COLOR_SHAPE, (int) _colorShape);
                 args.PutInt(ARG_PRESETS_BUTTON_TEXT, _presetsButtonText);
@@ -991,6 +1003,19 @@ namespace Net.ArcanaStudio.ColorPicker
             }
 
             /**
+             * Set the dialog title string
+             *
+             * @param dialogTitle
+             *     The string used for the dialog title
+             * @return This builder object for chaining method calls
+             */
+            public Builder SetDialogTitle(string dialogTitle)
+            {
+                _dialogTitleString = dialogTitle;
+                return this;
+            }
+
+            /**
              * Set which dialog view to show.
              *
              * @param dialogType
@@ -1077,6 +1102,43 @@ namespace Net.ArcanaStudio.ColorPicker
             public void Show(Activity activity)
             {
                 Create().Show(activity.FragmentManager, "color-picker-dialog");
+            }
+
+
+            /**
+             * Create and show the {@link ColorPickerDialog} created with this builder
+             * in an async Task
+             *
+             * @param activity
+             *     The current activity.
+             * @return The selectet Color or default Color on abort
+             */
+            public async Task<Color> ShowAsync(Activity activity)
+            {
+                Color defColor = new Color(_color);
+
+                Color? colSelected = await ShowAsyncNullable(activity);
+                if (colSelected == null)
+                    return defColor;
+                return (Color)colSelected;
+            }
+
+            /**
+             * Create and show the {@link ColorPickerDialog} created with this builder
+             * in an async Task
+             *
+             * @param activity
+             *     The current activity.
+             * @return The selectet Color or NULL on abort
+             */
+            public async Task<Color?> ShowAsyncNullable(Activity activity)
+            {
+                OnDialogFinishedListener waiter = new OnDialogFinishedListener();
+                var dialog = Create();
+                dialog.SetColorPickerDialogListener(waiter);
+                dialog.Show(activity.FragmentManager, "color-picker-dialog");
+
+                return await waiter.DialogPoppedTask;
             }
 
             #endregion
