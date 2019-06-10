@@ -17,7 +17,7 @@ using Net.ArcanaStudio.ColorPicker;
 
 namespace Net.ArcanaStudio.ColorPickerDemo
 {
-    [Activity(Label = "ColorPickerActivity", Name = "Net.ArcanaStudio.ColorPickerDemo.ColorPickerActivity")]
+    [Activity(Label = "ColorPickerActivity", Name = "net.ArcanaStudio.ColorPickerDemo.ColorPickerActivity")]
     public class ColorPickerActivity : Activity, IOnColorChangedListener, View.IOnClickListener
     {
         #region Fields
