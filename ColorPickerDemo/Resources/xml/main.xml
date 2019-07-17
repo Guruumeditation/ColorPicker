@@ -59,7 +59,7 @@
         android:title="Show activity">
       <intent
           android:action="android.intent.action.VIEW"
-          android:targetClass="Net.ArcanaStudio.ColorPickerDemo.ColorPickerActivity"
+          android:targetClass="net.ArcanaStudio.ColorPickerDemo.ColorPickerActivity"
           android:targetPackage="Net.ArcanaStudio.ColorPickerDemo"/>
     </Preference>
   </PreferenceCategory>
